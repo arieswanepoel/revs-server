@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Prediction</title>
+
+<body>
+  <h1>Car Price Prediction</h1>
+  <p>Input the following information about the car</p>
+  <form action="../server.js" target="_blank">
+
+    <p>Year: <input list="year" name="year"></p>
+
+    <datalist id="year">
+
+      <option value="2018">
+      <option value="2017">
+      <option value="2016">
+      <option value="2015">
+      <option value="2014">
+      <option value="1999">
+      <option value="1998">
+
+    </datalist>
+
+    <p>Kilometers: <input type="text" km="kilometers"></p>
+
+    <p>Make <input list="make" name="make"></p>
+
+    <datalist id="make">
+
+      <option value="alfa">
+      <option value="volvo">
+      <option value="renault">
+      <option value="mercedes benz">
+      <option value="bmw">
+      <option value="fiat">
+      <option value="opel">
+
+    </datalist>
+
+    <p>Model: <input type="text" name="model"></p>
+    <p>Enjin capacity: <input type="text" enjin="enjin capacity"></p>
+    <p>Colour: <input type="text" colour="colour"></p>
+    <p>Transmision type: <input type="text" trans="transmission type"></p>
+
+    <input type="submit" value="Predict Price">
+  </form>
+</body>
+</head>
+
+</html>
